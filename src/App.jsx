@@ -89,7 +89,7 @@ const App = () => {
           </a> */}
         </div>
         <div className="home-img">
-          <img src={homeImg} alt="Home" />
+          <img src="/src/img/3Dine(T).png" alt="Home" />
         </div>
       </section>
 
