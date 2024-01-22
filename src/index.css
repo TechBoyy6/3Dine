@@ -80,6 +80,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
   align-items: center;
+  padding-top: 7%;
 }
 
 .home-img img {
@@ -91,6 +92,8 @@ section {
 .home-text h1 {
   font-size: var(--big-font);
   color: var(--main-color);
+  /* align-items: center; */
+  /* padding-right: 50%; */
 }
 
 .home-text h2 {

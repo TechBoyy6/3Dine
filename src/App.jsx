@@ -5,7 +5,7 @@ import homeImg from "./img/home.png";
 import foodImg from "./img/food1.png";
 import food2 from "./img/food2.png";
 import food3 from "./img/food3.png";
-import orderFood from "./img/orderfood.png";
+// import orderFood from "./img/orderfood.png";
 import aboutImg from "./img/about.png";
 import boxImg from "./img/box.png";
 import shippingImg from "./img/shiping.png";
@@ -33,7 +33,7 @@ const App = () => {
     <>
       <header>
         <a href="#" className="logo">
-          Foodie
+          3Dine
         </a>
         <div
           className={`bx bx-menu ${menuOpen ? "open" : ""}`}
@@ -49,20 +49,20 @@ const App = () => {
             </a>
           </li>
           <li>
-            <a href="#about" onClick={handleMenuClick}>
-              About
-            </a>
-          </li>
-          <li>
             <a href="#menu" onClick={handleMenuClick}>
               Menu
             </a>
           </li>
           <li>
+            <a href="#about" onClick={handleMenuClick}>
+              About
+            </a>
+          </li>
+          {/* <li>
             <a href="#order" onClick={handleMenuClick}>
               Order
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#service" onClick={handleMenuClick}>
               Service
@@ -78,15 +78,15 @@ const App = () => {
 
       <section className="home" id="home">
         <div className="home-text">
-          <h1>Restaurant</h1>
+          <h1>Revolutionizing Dining using AR</h1>
           <h2>
             Food the <br />
             Most precious things
           </h2>
           <p>Good food is very often even most often simple food</p>
-          <a href="#" className="button">
+          {/* <a href="#" className="button">
             Learn More
-          </a>
+          </a> */}
         </div>
         <div className="home-img">
           <img src={homeImg} alt="Home" />
@@ -131,7 +131,7 @@ const App = () => {
         </div>
       </section>
 
-      <section className="order" id="order">
+      {/* <section className="order" id="order">
         <div className="order-text">
           <h2>Are you hungry?</h2>
           <h1>Don't wait!</h1>
@@ -143,7 +143,7 @@ const App = () => {
         <div className="order-img">
           <img src={orderFood} alt="Order Food" />
         </div>
-      </section>
+      </section> */}
 
       <section className="about" id="about">
         <div className="about-img">
@@ -168,30 +168,31 @@ const App = () => {
       <section className="service" id="service">
         <div className="heading">
           <span>Services</span>
-          <h2>We provide best quality food</h2>
+          <h2>We provide best quality</h2>
         </div>
         <div className="service-container">
           <div className="s-box">
             <img src={boxImg} alt="Order" />
-            <h3>Order</h3>
+            <h3>Realistic 3D Models</h3>
             <p>
-              A full display of menu items and billing features make it easier
-              for the customers to order food
+            Capture accurate menu representation, transformed into
+            interactive 3D models
             </p>
           </div>
 
           <div className="s-box">
             <img src={shippingImg} alt="Shipping" />
-            <h3>Shipping</h3>
-            <p>Your order has been shipped, it will reach you in a while</p>
+            <h3>Accessible Digital Menus</h3>
+            <p>Conveniently access visually appealing menus on smartphones
+                    and devices</p>
           </div>
 
           <div className="s-box">
             <img src={deliverImg} alt="Delivered" />
-            <h3>Delivered</h3>
+            <h3>Augmented Reality Dining</h3>
             <p>
-              Your order has reached to you please don't forget to give your
-              feedback
+            Immerse your dining experience with table-triggered AR
+                    models for realism.
             </p>
           </div>
         </div>
@@ -217,14 +218,14 @@ const App = () => {
                   <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
                   <a href="#menu">Menu</a>
                 </li>
                 <li>
-                  <a href="#order">Order</a>
+                  <a href="#about">About</a>
                 </li>
+                {/* <li>
+                  <a href="#order">Order</a>
+                </li> */}
                 <li>
                   <a href="#service">Service</a>
                 </li>
@@ -238,25 +239,25 @@ const App = () => {
               <h4>Our Services</h4>
               <ul>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#">Realistic 3D Models</a>
                 </li>
                 <li>
-                  <a href="#">Product Management</a>
+                  <a href="#">Accesible Digital Menus</a>
                 </li>
                 <li>
-                  <a href="#">Food Delivery</a>
+                  <a href="#">Augmented Reality Dining</a>
                 </li>
                 <li>
-                  <a href="#">Quality Food</a>
+                  <a href="#">Enhanced Visulization</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">Cart Service</a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <div className="col">
-              <h4>Information</h4>
+              {/* <h4>Information</h4>
               <ul>
                 <li>
                   <a href="#about">About US</a>
@@ -270,7 +271,7 @@ const App = () => {
                 <li>
                   <a href="#">Terms & Conditions</a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
 
             <div className="col">
